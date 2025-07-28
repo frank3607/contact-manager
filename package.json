@@ -1,0 +1,40 @@
+{
+  "name": "contact-manager-backend",
+  "version": "1.0.0",
+  "description": "A simple Contact Manager backend using Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Franklin",
+  "license": "MIT",
+  "keywords": [
+    "contacts",
+    "express",
+    "nodejs",
+    "api"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "multer": "^2.0.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "nodemon": "^3.1.10",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
